@@ -1,5 +1,5 @@
 # Function
-
+# Salay example
 def func(en):
     try:
         word_json = open("words.json", "r")

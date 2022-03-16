@@ -23,14 +23,14 @@ WIDTH = 500
 root = Tk()
 root.title("Dictionary")
 root.maxsize(WIDTH, HEIGHT)
-# root.iconbitmap(r'img/icon.ico')
+root.iconbitmap(r'img/icon.ico')
 
 # Canvas
 canvas = Canvas(root, height=HEIGHT, width=WIDTH)
 canvas.pack()
 
 # Background image
-# bg = PhotoImage(file='img/bg.png')
+bg = PhotoImage(file='img/bg.png')
 bg_label = Label()
 bg_label.place(relwidth=1, relheight=1)
 
